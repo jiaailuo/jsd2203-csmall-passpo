@@ -31,6 +31,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/admin")
 public class AdminController {
+
     
     @Autowired
     private IAdminService adminService;
